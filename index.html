@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahitha J V | Portfolio</title>
+    <meta name="description" content="Portfolio of Jangamrajupalli Venkata Mahitha – B.Tech CS student at IIIT Pune, Full-Stack Developer & ML Enthusiast.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Mahitha.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-name">Mahitha J V</h1>
+            <p class="hero-tagline">Full-Stack Developer · ML Enthusiast · CS Undergrad @ IIIT Pune</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="assets/profile.jpg" alt="Mahitha J V" />
+                </div>
+                <div class="about-text">
+                    <p>I'm a <strong>B.Tech Computer Science</strong> undergraduate at <strong>IIIT Pune</strong> with strong foundations in Data Structures, Algorithms, and core Computer Science subjects.</p>
+                    <p>I'm skilled in building full-stack web applications using the <strong>MERN stack</strong> and Python-based <strong>Machine Learning</strong> pipelines with FastAPI and Scikit-learn.</p>
+                    <p>I'm passionate about scalable software development, open-source contributions, agricultural technology, and applied Machine Learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Languages</h3>
+                    <p>C, C++, Python, JavaScript, HTML, CSS</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Frameworks & Libraries</h3>
+                    <p>React.js, Node.js, Express.js, FastAPI, Scikit-learn, Pandas, NumPy</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Databases</h3>
+                    <p>MongoDB, MySQL</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📚</div>
+                    <h3>Core CS</h3>
+                    <p>DSA, Operating Systems, Computer Networks, DBMS, OOP</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Tools</h3>
+                    <p>Git, GitHub, VS Code, Vite</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🌾 SmartAgri – Smart Farming System</h3>
+                        <span class="project-link"><a href="https://github.com/MahithaJV" target="_blank" rel="noopener">GitHub ↗</a></span>
+                    </div>
+                    <div class="project-tags">
+                        <span>React.js</span><span>FastAPI</span><span>Python</span><span>Scikit-Learn</span><span>Pandas</span><span>OpenWeatherMap API</span>
+                    </div>
+                    <ul>
+                        <li>Developed a full-stack AI-powered platform to support Indian farmers with intelligent recommendations across pre-, during-, and post-cultivation stages.</li>
+                        <li>Implemented a location-based crop recommendation engine using ML models trained on soil and climate parameters.</li>
+                        <li>Built a real-time farm safety monitoring module with weather-based analytics and geofenced safe-zone tracking.</li>
+                        <li>Created a Government Schemes Hub surfacing relevant agricultural subsidies based on farmer profile and location.</li>
+                        <li>Designed an interactive React dashboard integrated with FastAPI services for live visualization and farm insights.</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🏨 Hotel Booking Platform</h3>
+                    </div>
+                    <div class="project-tags">
+                        <span>MongoDB</span><span>Express.js</span><span>React.js</span><span>Node.js</span>
+                    </div>
+                    <ul>
+                        <li>Built a full-stack hotel booking application with JWT-based authentication and dynamic room reservation management.</li>
+                        <li>Designed RESTful APIs for booking operations, user management, and hotel listing services.</li>
+                        <li>Developed a responsive React frontend seamlessly integrated with a Node.js and Express backend.</li>
+                        <li>Utilized MongoDB for efficient storage and retrieval of booking and user data.</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🍽️ Restaurant Rating Analysis</h3>
+                    </div>
+                    <div class="project-tags">
+                        <span>Python</span><span>NLP</span><span>Machine Learning</span>
+                    </div>
+                    <ul>
+                        <li>Performed sentiment analysis on restaurant reviews using NLP techniques such as tokenization, stopword removal, and TF-IDF vectorization.</li>
+                        <li>Trained and evaluated classification models for rating prediction using accuracy, precision, recall, and confusion matrix metrics.</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>📊 Predictive Modeling using ML</h3>
+                    </div>
+                    <div class="project-tags">
+                        <span>Python</span><span>Scikit-learn</span><span>Machine Learning</span>
+                    </div>
+                    <ul>
+                        <li>Implemented regression and classification pipelines including Linear Regression, Decision Trees, and Random Forest algorithms.</li>
+                        <li>Evaluated model performance on real-world datasets and documented comparative analysis of results.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Activities & Clubs</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <h3>🧮 Quantum Math Club – IIIT Pune</h3>
+                    <p class="activity-role">Content Writer & Doubt Solver</p>
+                    <ul>
+                        <li>Create and publish educational content on advanced mathematical and quantitative topics.</li>
+                        <li>Mentor peers by solving doubts related to mathematics, logic, and algorithmic problem solving.</li>
+                    </ul>
+                </div>
+                <div class="activity-card">
+                    <h3>👩‍💻 Coding Clubs – Active Member</h3>
+                    <ul>
+                        <li>Participate in competitive programming contests, hackathons, and collaborative technical projects.</li>
+                        <li>Qualified Smart India Hackathon (Internal Round) and Mumbai Hacks Hackathon through team-based problem solving and innovation.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always open to new opportunities, collaborations, and conversations. Feel free to reach out!</p>
+                <div class="contact-links">
+                    <a href="mailto:jvmahitha495@gmail.com" class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <span>jvmahitha495@gmail.com</span>
+                    </a>
+                    <a href="tel:+919391545020" class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span>+91-9391545020</span>
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener" class="contact-item">
+                        <span class="contact-icon">🔗</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/MahithaJV" target="_blank" rel="noopener" class="contact-item">
+                        <span class="contact-icon">🐙</span>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Mahitha J V. Built with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

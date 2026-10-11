@@ -651,7 +651,7 @@ img {
     font-family: 'JetBrains Mono', monospace;
     font-size: 2.2rem;
     font-weight: 800;
-    color: rgba(255, 255, 255, 0.04);
+    color: rgba(255, 255, 255, 0.2);
     line-height: 1;
     min-width: 48px;
     padding-top: 4px;
@@ -659,7 +659,7 @@ img {
 }
 
 .project-card:hover .project-number {
-    color: rgba(139, 92, 246, 0.15);
+    color: rgba(139, 92, 246, 0.6);
 }
 
 .project-header {
